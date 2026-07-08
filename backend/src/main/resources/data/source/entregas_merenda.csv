@@ -1,0 +1,41 @@
+escola,municipio,uf,produto,categoria,quantidade_kg,custo_unitario,data_entrega
+EMEF Monteiro Lobato,Sao Paulo,sp,Arroz integral,Graos,120.5,4.90,2026-06-01
+EMEF Cecilia Meireles,Sao Paulo,SP,Feijao carioca,Graos,80.0,7.20,2026-06-01
+EE Anisio Teixeira,Campinas,sp,Leite em po,Laticinios,45.0,18.50,2026-06-02
+EMEI Vinicius de Moraes,Santos,SP,Banana prata,Frutas,200.0,3.10,2026-06-02
+EMEF Paulo Freire,Guarulhos,sp,Arroz integral,Graos,150.0,4.90,2026-06-03
+EE Carolina de Jesus,Osasco,SP,Cenoura,Legumes,95.5,2.80,2026-06-03
+EMEF Darcy Ribeiro,Sorocaba,sp,Feijao preto,Graos,60.0,7.80,2026-06-04
+EMEI Tarsila do Amaral,Sao Paulo,SP,Macarrao,Massas,110.0,5.40,2026-06-04
+EE Florestan Fernandes,Ribeirao Preto,sp,Oleo de soja,Outros,70.0,9.10,2026-06-05
+EMEF Milton Santos,Sao Bernardo,SP,Tomate,Legumes,88.0,4.20,2026-06-05
+EMEF Sem Custo,Diadema,SP,Acucar,Outros,50.0,,2026-06-06
+EE Quantidade Invalida,Maua,SP,Sal,Outros,-10.0,2.00,2026-06-06
+EMEF Data Ruim,Itaquaquecetuba,SP,Farinha,Graos,40.0,3.50,06/06/2026
+,Cotia,SP,Arroz,Graos,30.0,4.90,2026-06-07
+EMEF Zilda Arns,Taboao da Serra,sp,Leite em po,Laticinios,55.0,18.50,2026-06-07
+EMEI Ruth Rocha,Sao Paulo,SP,Banana prata,Frutas,180.0,3.10,2026-06-08
+EE Chico Mendes,Barueri,sp,Feijao carioca,Graos,72.0,7.20,2026-06-08
+EMEF Betinho,Jundiai,SP,Cenoura,Legumes,64.0,2.80,2026-06-09
+EMEF Dorina Nowill,Piracicaba,sp,Macarrao,Massas,130.0,5.40,2026-06-09
+EE Herbert de Souza,Franca,SP,Tomate,Legumes,77.0,4.20,2026-06-10
+EMEF Ariano Suassuna,Bauru,sp,Arroz integral,Graos,140.0,4.90,2026-06-10
+EMEI Ziraldo,Sao Jose dos Campos,SP,Banana prata,Frutas,160.0,3.10,2026-06-11
+EE Patativa do Assare,Aracatuba,sp,Feijao preto,Graos,58.0,7.80,2026-06-11
+EMEF Josue de Castro,Presidente Prudente,SP,Oleo de soja,Outros,66.0,9.10,2026-06-12
+EMEF Sem Produto,Marilia,SP,,Graos,45.0,4.90,2026-06-12
+EMEF Graciliano Ramos,Limeira,sp,Leite em po,Laticinios,52.0,18.50,2026-06-13
+EE Rachel de Queiroz,Sumare,SP,Cenoura,Legumes,83.0,2.80,2026-06-13
+EMEF Mario Quintana,Indaiatuba,sp,Macarrao,Massas,125.0,5.40,2026-06-14
+EMEI Cora Coralina,Americana,SP,Tomate,Legumes,71.0,4.20,2026-06-14
+EE Manoel de Barros,Hortolandia,sp,Arroz integral,Graos,135.0,4.90,2026-06-15
+EMEF Lima Barreto,Sao Carlos,SP,Feijao carioca,Graos,68.0,7.20,2026-06-15
+EMEF Conceicao Evaristo,Braganca Paulista,sp,Banana prata,Frutas,175.0,3.10,2026-06-16
+EE Solano Trindade,Itapevi,SP,Leite em po,Laticinios,49.0,18.50,2026-06-16
+EMEF Abdias Nascimento,Suzano,sp,Cenoura,Legumes,90.0,2.80,2026-06-17
+EMEI Emicida,Carapicuiba,SP,Macarrao,Massas,118.0,5.40,2026-06-17
+EE Luiz Gama,Mogi das Cruzes,sp,Tomate,Legumes,74.0,4.20,2026-06-18
+EMEF Marielle Franco,Ferraz de Vasconcelos,SP,Arroz integral,Graos,145.0,4.90,2026-06-18
+EMEF Sueli Carneiro,Embu das Artes,sp,Feijao preto,Graos,61.0,7.80,2026-06-19
+EE Milton Nascimento,Jandira,SP,Oleo de soja,Outros,69.0,9.10,2026-06-19
+EMEF Djamila Ribeiro,Poa,sp,Leite em po,Laticinios,53.0,18.50,2026-06-20

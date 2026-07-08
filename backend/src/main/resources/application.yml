@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: etl-pipeline
+
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/etl_pipeline?createDatabaseIfNotExist=true&serverTimezone=UTC}
+    username: ${DB_USERNAME:etl}
+    password: ${DB_PASSWORD:etl}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: false
+
+  batch:
+    # As tabelas de metadados do Spring Batch sao criadas automaticamente.
+    jdbc:
+      initialize-schema: always
+    # Nao executa nenhum job no startup: a execucao e sob demanda via API.
+    job:
+      enabled: false
+
+# Parametros de negocio do pipeline (fonte de dados e tamanho do chunk).
+etl:
+  source:
+    # Classpath por padrao; pode apontar para um arquivo externo com file:/caminho/arquivo.csv
+    location: classpath:data/source/entregas_merenda.csv
+  chunk-size: 100
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when_authorized
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+server:
+  port: ${SERVER_PORT:8020}
+
+logging:
+  level:
+    org.springframework.batch: INFO
+    com.portfolio.etl: INFO
