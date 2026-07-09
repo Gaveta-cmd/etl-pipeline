@@ -15,6 +15,9 @@ Pipeline **ETL** (Extract, Transform, Load) que ingere dados de entregas de mere
 ### Dashboard de monitoramento
 ![Dashboard](docs/screenshots/dashboard.png)
 
+### Modelo relacional (MySQL)
+![Banco relacional](docs/screenshots/banco-relacional.png)
+
 ## Funcionalidades
 
 | Funcionalidade | Descricao |
