@@ -171,7 +171,7 @@ cd backend
 ./mvnw spring-boot:run        # Windows: mvnw.cmd spring-boot:run
 ```
 
-A API sobe em `http://localhost:8020`. A tabela `delivery_record` e as tabelas do Spring Batch sao criadas no primeiro start.
+A API sobe em `http://localhost:8020`. As tabelas `escola`, `produto` e `entrega` (alem das tabelas de metadados do Spring Batch) sao criadas no primeiro start.
 
 ### 3. Frontend
 
